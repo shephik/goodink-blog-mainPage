@@ -1,0 +1,995 @@
+/* line 1, G:/html-test/goodink/css/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 7, G:/html-test/goodink/css/_reset.scss */
+html, body, body {
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; }
+
+/* line 14, G:/html-test/goodink/css/_reset.scss */
+body {
+  font-size: 1rem; }
+
+/* line 18, G:/html-test/goodink/css/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  display: block; }
+
+/* line 21, G:/html-test/goodink/css/_reset.scss */
+figure {
+  position: relative; }
+  /* line 25, G:/html-test/goodink/css/_reset.scss */
+  figure img,
+  figure video {
+    display: block;
+    max-width: 100%; }
+
+/* line 30, G:/html-test/goodink/css/_reset.scss */
+h1, footer .footer__content .footer__nav h2, h2, h3, h4 {
+  font-weight: normal;
+  line-height: 1.2;
+  padding-bottom: 1.2rem; }
+
+/* line 36, G:/html-test/goodink/css/_reset.scss */
+ul {
+  list-style: none; }
+
+/* line 39, G:/html-test/goodink/css/_reset.scss */
+a {
+  text-decoration: none; }
+  /* line 41, G:/html-test/goodink/css/_reset.scss */
+  a:hover {
+    text-decoration: none; }
+  /* line 44, G:/html-test/goodink/css/_reset.scss */
+  a:active {
+    text-decoration: none; }
+
+/* line 55, G:/html-test/goodink/css/_reset.scss */
+input,
+select,
+input:hover,
+input:focus,
+input:active,
+select:hover,
+select:focus,
+select:active {
+  outline: none; }
+
+/*media-queries*/
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("/fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+  src: url("/fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix") format("embedded-opentype"), url("/fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"), url("/fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "ProximaNovaBold";
+  src: url("/fonts/ProximaNovaBold/ProximaNovaBold.eot");
+  src: url("/fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix") format("embedded-opentype"), url("/fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"), url("/fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold; }
+
+/* line 80, G:/html-test/goodink/css/style.scss */
+html, body, body {
+  background-color: #ebebeb;
+  color: #4f4f4f;
+  font-family: "ProximaNovaRegular", Helvetica, sans-serif;
+  height: 100%; }
+
+/* line 86, G:/html-test/goodink/css/style.scss */
+html, body {
+  font-size: 14px;
+  line-height: 1.8; }
+
+/* line 91, G:/html-test/goodink/css/style.scss */
+.wrapper {
+  min-height: 100%;
+  position: relative; }
+
+/* line 95, G:/html-test/goodink/css/style.scss */
+header, footer {
+  background-color: #373737;
+  color: #ebebeb;
+  width: 100%; }
+
+/* line 100, G:/html-test/goodink/css/style.scss */
+header {
+  height: 70px; }
+
+/* line 105, G:/html-test/goodink/css/style.scss */
+.main,
+.header__content,
+.footer__content {
+  margin: 0 auto;
+  max-width: 980px; }
+
+/* line 109, G:/html-test/goodink/css/style.scss */
+.main {
+  padding-bottom: 300px; }
+
+/* line 113, G:/html-test/goodink/css/style.scss */
+[class*="col-"] {
+  float: left;
+  list-style: none;
+  position: relative;
+  padding: 0 10px; }
+
+/* line 120, G:/html-test/goodink/css/style.scss */
+.col-1 {
+  width: 16.666666667%; }
+
+/* line 121, G:/html-test/goodink/css/style.scss */
+.col-2 {
+  width: 33.33333333333%; }
+  @media screen and (max-width: 768px) {
+    /* line 121, G:/html-test/goodink/css/style.scss */
+    .col-2 {
+      width: 50%; } }
+  @media screen and (max-width: 480px) {
+    /* line 121, G:/html-test/goodink/css/style.scss */
+    .col-2 {
+      width: 100%; } }
+
+/* line 125, G:/html-test/goodink/css/style.scss */
+.col-3 {
+  width: 50%; }
+
+/* line 126, G:/html-test/goodink/css/style.scss */
+.col-4 {
+  width: 66.666666667%; }
+  @media screen and (max-width: 768px) {
+    /* line 126, G:/html-test/goodink/css/style.scss */
+    .col-4 {
+      width: 100%; } }
+
+/* line 129, G:/html-test/goodink/css/style.scss */
+.col-5 {
+  width: 83.333333333%; }
+
+/* line 130, G:/html-test/goodink/css/style.scss */
+.col-6 {
+  width: 100%; }
+
+/* line 133, G:/html-test/goodink/css/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+/* line 137, G:/html-test/goodink/css/style.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 143, G:/html-test/goodink/css/style.scss */
+.bottom-margin-sm, .notes li a {
+  margin-bottom: 10px; }
+
+/* line 146, G:/html-test/goodink/css/style.scss */
+.bottom-margin-lrg {
+  margin-bottom: 20px; }
+
+/* line 149, G:/html-test/goodink/css/style.scss */
+a {
+  color: #4f4f4f; }
+
+/*-----
+        header
+        --------*/
+/* line 156, G:/html-test/goodink/css/style.scss */
+.logo {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background-color: #f26c4f;
+  position: relative;
+  float: left;
+  font-size: 3em; }
+  /* line 164, G:/html-test/goodink/css/style.scss */
+  .logo:after {
+    content: "";
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 17.5px;
+    left: 70px;
+    border: 17.5px solid #373737;
+    border-left: 17.5px solid #f26c4f; }
+
+/* line 179, G:/html-test/goodink/css/style.scss */
+h1, footer .footer__content .footer__nav h2 {
+  color: #ebebeb;
+  float: left;
+  font-size: 1.5rem;
+  padding-left: 35px;
+  height: 70px;
+  line-height: 70px; }
+
+/* line 186, G:/html-test/goodink/css/style.scss */
+.search-wrapper {
+  width: 250px;
+  height: 70px;
+  line-height: 70px;
+  float: right; }
+  /* line 190, G:/html-test/goodink/css/style.scss */
+  .search-wrapper .search-icon {
+    position: absolute;
+    color: #f26c4f;
+    padding-left: 20px; }
+  /* line 195, G:/html-test/goodink/css/style.scss */
+  .search-wrapper .search-text {
+    height: 35px;
+    padding-left: 50px;
+    width: 100%; }
+  @media screen and (max-width: 480px) {
+    /* line 186, G:/html-test/goodink/css/style.scss */
+    .search-wrapper {
+      width: 100%; } }
+
+/*------
+        nav
+        ---------*/
+/* line 210, G:/html-test/goodink/css/style.scss */
+.main-nav, footer .footer__content .footer__nav {
+  -webkit-transition: all 600ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  -o-transition: all 600ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  -moz-transition: all 600ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  transition: all 600ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  height: 60px;
+  line-height: 60px;
+  z-index: 1; }
+  @media screen and (max-width: 480px) {
+    /* line 210, G:/html-test/goodink/css/style.scss */
+    .main-nav, footer .footer__content .footer__nav {
+      height: 0px; } }
+  /* line 218, G:/html-test/goodink/css/style.scss */
+  .main-nav::after, footer .footer__content .footer__nav::after {
+    content: "";
+    display: block;
+    height: 60px;
+    width: 1000px;
+    background-color: #474747;
+    position: absolute;
+    top: 0;
+    left: 90%;
+    z-index: -1; }
+    @media screen and (max-width: 768px) {
+      /* line 218, G:/html-test/goodink/css/style.scss */
+      .main-nav::after, footer .footer__content .footer__nav::after {
+        left: 0; } }
+    @media screen and (max-width: 480px) {
+      /* line 218, G:/html-test/goodink/css/style.scss */
+      .main-nav::after, footer .footer__content .footer__nav::after {
+        display: none; } }
+  /* line 231, G:/html-test/goodink/css/style.scss */
+  .main-nav .nav__content, footer .footer__content .footer__nav .nav__content {
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background-color: #474747;
+    padding-left: 70px; }
+    @media screen and (max-width: 768px) {
+      /* line 231, G:/html-test/goodink/css/style.scss */
+      .main-nav .nav__content, footer .footer__content .footer__nav .nav__content {
+        padding-left: 10px; } }
+    @media screen and (max-width: 480px) {
+      /* line 231, G:/html-test/goodink/css/style.scss */
+      .main-nav .nav__content, footer .footer__content .footer__nav .nav__content {
+        width: 300px;
+        height: auto;
+        position: absolute;
+        top: -70px;
+        right: -300px;
+        padding: 0 35px 35px;
+        background-color: rgba(71, 71, 71, 0.8); } }
+    /* line 246, G:/html-test/goodink/css/style.scss */
+    .main-nav .nav__content li, footer .footer__content .footer__nav .nav__content li {
+      display: inline-block;
+      padding-right: 50px; }
+      @media screen and (max-width: 768px) {
+        /* line 246, G:/html-test/goodink/css/style.scss */
+        .main-nav .nav__content li, footer .footer__content .footer__nav .nav__content li {
+          padding-right: 35px; } }
+      @media screen and (max-width: 480px) {
+        /* line 246, G:/html-test/goodink/css/style.scss */
+        .main-nav .nav__content li, footer .footer__content .footer__nav .nav__content li {
+          display: block; } }
+      /* line 251, G:/html-test/goodink/css/style.scss */
+      .main-nav .nav__content li::after, footer .footer__content .footer__nav .nav__content li::after {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 1rem;
+        background-color: rgba(235, 235, 235, 0.5);
+        position: absolute;
+        top: 50%;
+        margin-top: -0.5rem; }
+        @media screen and (max-width: 480px) {
+          /* line 251, G:/html-test/goodink/css/style.scss */
+          .main-nav .nav__content li::after, footer .footer__content .footer__nav .nav__content li::after {
+            display: none; } }
+      /* line 262, G:/html-test/goodink/css/style.scss */
+      .main-nav .nav__content li:nth-of-type(1)::after, footer .footer__content .footer__nav .nav__content li:nth-of-type(1)::after {
+        margin-left: 55px; }
+      /* line 265, G:/html-test/goodink/css/style.scss */
+      .main-nav .nav__content li:nth-of-type(2)::after, footer .footer__content .footer__nav .nav__content li:nth-of-type(2)::after {
+        margin-left: 70px; }
+      /* line 268, G:/html-test/goodink/css/style.scss */
+      .main-nav .nav__content li:nth-of-type(3)::after, footer .footer__content .footer__nav .nav__content li:nth-of-type(3)::after {
+        margin-left: 65px; }
+      /* line 271, G:/html-test/goodink/css/style.scss */
+      .main-nav .nav__content li:nth-of-type(4)::after, footer .footer__content .footer__nav .nav__content li:nth-of-type(4)::after, footer .footer__content .footer__nav .nav__content li:nth-of-type(5)::after {
+        display: none; }
+      /* line 274, G:/html-test/goodink/css/style.scss */
+      .main-nav .nav__content li:nth-of-type(5), footer .footer__content .footer__nav .nav__content li:nth-of-type(5) {
+        float: right;
+        padding-right: 25px; }
+        @media screen and (max-width: 480px) {
+          /* line 274, G:/html-test/goodink/css/style.scss */
+          .main-nav .nav__content li:nth-of-type(5), footer .footer__content .footer__nav .nav__content li:nth-of-type(5) {
+            float: none; } }
+        /* line 278, G:/html-test/goodink/css/style.scss */
+        .main-nav .nav__content li:nth-of-type(5)::after, footer .footer__content .footer__nav .nav__content li:nth-of-type(5)::after {
+          margin-left: 80px;
+          z-index: 1; }
+      /* line 283, G:/html-test/goodink/css/style.scss */
+      .main-nav .nav__content li a, footer .footer__content .footer__nav .nav__content li a {
+        display: block;
+        height: 60px;
+        color: #ebebeb; }
+        @media screen and (max-width: 480px) {
+          /* line 283, G:/html-test/goodink/css/style.scss */
+          .main-nav .nav__content li a, footer .footer__content .footer__nav .nav__content li a {
+            height: 50px;
+            font-size: 1.3rem; } }
+        /* line 288, G:/html-test/goodink/css/style.scss */
+        .main-nav .nav__content li a:hover, footer .footer__content .footer__nav .nav__content li a:hover {
+          text-decoration: none;
+          color: #f26c4f;
+          border-bottom: 3px solid #f26c4f; }
+
+/*toggler for small screens*/
+/* line 302, G:/html-test/goodink/css/style.scss */
+#navtoggler,
+.toggle-nav {
+  display: none; }
+
+/* line 305, G:/html-test/goodink/css/style.scss */
+.toggle-nav {
+  position: absolute;
+  right: 10px;
+  top: -8px;
+  font-size: 3.5rem;
+  color: #8f8f8f;
+  cursor: pointer;
+  z-index: 2; }
+  @media screen and (max-width: 480px) {
+    /* line 305, G:/html-test/goodink/css/style.scss */
+    .toggle-nav {
+      display: block; } }
+  /* line 314, G:/html-test/goodink/css/style.scss */
+  .toggle-nav:hover {
+    color: rgba(143, 143, 143, 0.7); }
+
+/* line 319, G:/html-test/goodink/css/style.scss */
+#navtoggler:checked ~ .main-nav, footer .footer__content #navtoggler:checked ~ .footer__nav {
+  -webkit-transform: translateX(-300px);
+  -moz-transform: translateX(-300px);
+  -ms-transform: translateX(-300px);
+  -o-transform: translateX(-300px);
+  transform: translateX(-300px); }
+
+/*------
+        contacts
+                ---------*/
+/* line 332, G:/html-test/goodink/css/style.scss */
+.contacts {
+  height: 40px;
+  line-height: 40px; }
+  /* line 335, G:/html-test/goodink/css/style.scss */
+  .contacts .contacts__filter-wrapper {
+    float: left;
+    width: 250px; }
+    /* line 338, G:/html-test/goodink/css/style.scss */
+    .contacts .contacts__filter-wrapper .contacts__filter-text {
+      height: 40px;
+      width: 100%;
+      padding-left: 50px;
+      color: #8f8f8f;
+      font-family: "ProximaNovaRegular", Helvetica, sans-serif; }
+      @media screen and (max-width: 480px) {
+        /* line 338, G:/html-test/goodink/css/style.scss */
+        .contacts .contacts__filter-wrapper .contacts__filter-text {
+          height: 35px; } }
+    /* line 346, G:/html-test/goodink/css/style.scss */
+    .contacts .contacts__filter-wrapper .contacts__filter-icon {
+      position: absolute;
+      color: #f26c4f;
+      padding-left: 20px; }
+      /* line 350, G:/html-test/goodink/css/style.scss */
+      .contacts .contacts__filter-wrapper .contacts__filter-icon .fa {
+        font-weight: 900; }
+    @media screen and (max-width: 480px) {
+      /* line 335, G:/html-test/goodink/css/style.scss */
+      .contacts .contacts__filter-wrapper {
+        width: 100%; } }
+  /* line 356, G:/html-test/goodink/css/style.scss */
+  .contacts .contacts__icon {
+    float: right;
+    height: 50px;
+    height: 60px;
+    line-height: 60px;
+    margin-top: -10px;
+    color: #8f8f8f; }
+    /* line 363, G:/html-test/goodink/css/style.scss */
+    .contacts .contacts__icon li {
+      display: inline-block;
+      padding-left: 25px; }
+      /* line 35, G:/html-test/goodink/css/style.scss */
+      .contacts .contacts__icon li a {
+        color: #8f8f8f; }
+        /* line 37, G:/html-test/goodink/css/style.scss */
+        .contacts .contacts__icon li a:hover {
+          color: rgba(143, 143, 143, 0.7); }
+    @media screen and (max-width: 768px) {
+      /* line 356, G:/html-test/goodink/css/style.scss */
+      .contacts .contacts__icon {
+        display: none; } }
+  @media screen and (max-width: 480px) {
+    /* line 332, G:/html-test/goodink/css/style.scss */
+    .contacts {
+      margin-top: -20px; } }
+
+/*------
+        section with large picture
+                                   ---------*/
+/* line 381, G:/html-test/goodink/css/style.scss */
+section .section__pic {
+  height: 400px;
+  overflow: hidden;
+  background: url("/img/img-1.jpg") 100% no-repeat;
+  -o-background-size: cover;
+  background-size: cover; }
+  @media screen and (max-width: 768px) {
+    /* line 381, G:/html-test/goodink/css/style.scss */
+    section .section__pic {
+      height: 300px;
+      background: url("/img/s-img-1.jpg") 100% no-repeat;
+      -o-background-size: cover;
+      background-size: cover; } }
+
+/* line 389, G:/html-test/goodink/css/style.scss */
+section .section__figcaption {
+  height: 40px;
+  width: 60%;
+  position: absolute;
+  margin-top: -40px;
+  right: 10px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 40px;
+  background-color: rgba(55, 55, 55, 0.8);
+  color: #ebebeb;
+  font-size: 1.2rem; }
+  @media screen and (max-width: 768px) {
+    /* line 389, G:/html-test/goodink/css/style.scss */
+    section .section__figcaption {
+      display: none; } }
+
+/* line 402, G:/html-test/goodink/css/style.scss */
+section .section__info {
+  height: 400px;
+  background-color: #373737;
+  padding: 35px;
+  color: #8f8f8f; }
+  /* line 407, G:/html-test/goodink/css/style.scss */
+  section .section__info h3 {
+    font-size: 1.5rem; }
+    /* line 35, G:/html-test/goodink/css/style.scss */
+    section .section__info h3 a {
+      color: #ebebeb; }
+      /* line 37, G:/html-test/goodink/css/style.scss */
+      section .section__info h3 a:hover {
+        color: rgba(235, 235, 235, 0.7); }
+  @media screen and (max-width: 768px) {
+    /* line 402, G:/html-test/goodink/css/style.scss */
+    section .section__info {
+      height: auto; } }
+
+/*------
+        articles
+                    ---------*/
+/* line 425, G:/html-test/goodink/css/style.scss */
+article .article__content {
+  background-color: #fff;
+  height: 400px; }
+  @media screen and (max-width: 480px) {
+    /* line 425, G:/html-test/goodink/css/style.scss */
+    article .article__content {
+      height: 200px; } }
+  @media screen and (max-width: 479px) {
+    /* line 425, G:/html-test/goodink/css/style.scss */
+    article .article__content {
+      height: 300px; } }
+  /* line 431, G:/html-test/goodink/css/style.scss */
+  article .article__content .article__pic {
+    height: 50%;
+    overflow: hidden; }
+    @media screen and (max-width: 480px) {
+      /* line 431, G:/html-test/goodink/css/style.scss */
+      article .article__content .article__pic {
+        float: left;
+        height: 100%;
+        width: 50%; } }
+    @media screen and (max-width: 479px) {
+      /* line 431, G:/html-test/goodink/css/style.scss */
+      article .article__content .article__pic {
+        float: none;
+        height: 50%;
+        width: 100%; } }
+  /* line 437, G:/html-test/goodink/css/style.scss */
+  article .article__content .img2 {
+    background: url("/img/img-2.jpg") 100% no-repeat;
+    -o-background-size: cover;
+    background-size: cover; }
+    @media screen and (max-width: 768px) {
+      /* line 437, G:/html-test/goodink/css/style.scss */
+      article .article__content .img2 {
+        background: url("/img/s-img-2.jpg") 100% no-repeat;
+        -o-background-size: cover;
+        background-size: cover; } }
+  /* line 441, G:/html-test/goodink/css/style.scss */
+  article .article__content .img3 {
+    background: url("/img/img-3.jpg") 100% no-repeat;
+    -o-background-size: cover;
+    background-size: cover; }
+    @media screen and (max-width: 768px) {
+      /* line 441, G:/html-test/goodink/css/style.scss */
+      article .article__content .img3 {
+        background: url("/img/s-img-3.jpg") 100% no-repeat;
+        -o-background-size: cover;
+        background-size: cover; } }
+  /* line 445, G:/html-test/goodink/css/style.scss */
+  article .article__content .img4 {
+    background: url("/img/img-4.jpg") 100% no-repeat;
+    -o-background-size: cover;
+    background-size: cover; }
+    @media screen and (max-width: 768px) {
+      /* line 445, G:/html-test/goodink/css/style.scss */
+      article .article__content .img4 {
+        background: url("/img/s-img-4.jpg") 100% no-repeat;
+        -o-background-size: cover;
+        background-size: cover; } }
+  /* line 449, G:/html-test/goodink/css/style.scss */
+  article .article__content .article__info {
+    height: 50%;
+    padding: 10px 35px; }
+    /* line 453, G:/html-test/goodink/css/style.scss */
+    article .article__content .article__info h2 {
+      font-size: 2rem; }
+      /* line 35, G:/html-test/goodink/css/style.scss */
+      article .article__content .article__info h2 a {
+        color: #4f4f4f; }
+        /* line 37, G:/html-test/goodink/css/style.scss */
+        article .article__content .article__info h2 a:hover {
+          color: rgba(79, 79, 79, 0.7); }
+      @media screen and (max-width: 768px) {
+        /* line 453, G:/html-test/goodink/css/style.scss */
+        article .article__content .article__info h2 {
+          font-size: 1.5rem; } }
+    @media screen and (max-width: 768px) {
+      /* line 449, G:/html-test/goodink/css/style.scss */
+      article .article__content .article__info {
+        padding: 35px; } }
+    @media screen and (max-width: 480px) {
+      /* line 449, G:/html-test/goodink/css/style.scss */
+      article .article__content .article__info {
+        float: right;
+        height: 100%;
+        width: 50%;
+        padding: 10px 35px; } }
+    @media screen and (max-width: 479px) {
+      /* line 449, G:/html-test/goodink/css/style.scss */
+      article .article__content .article__info {
+        float: none;
+        height: 50%;
+        width: 100%; } }
+
+@media screen and (max-width: 768px) {
+  /* line 463, G:/html-test/goodink/css/style.scss */
+  article:nth-of-type(3) {
+    display: none; } }
+
+/*------
+        text-content
+                    ---------*/
+/* line 474, G:/html-test/goodink/css/style.scss */
+.notes h3 {
+  font-weight: bold; }
+
+/* line 477, G:/html-test/goodink/css/style.scss */
+.notes li {
+  display: block; }
+  /* line 479, G:/html-test/goodink/css/style.scss */
+  .notes li a {
+    display: block;
+    height: auto;
+    background-color: #fff;
+    color: #373737;
+    padding: 10px 35px;
+    border-left: 3px solid #f26c4f; }
+    /* line 488, G:/html-test/goodink/css/style.scss */
+    .notes li a h3 {
+      font-size: 1.2rem; }
+    /* line 492, G:/html-test/goodink/css/style.scss */
+    .notes li a .notes__info ul {
+      padding-bottom: 10px; }
+      /* line 494, G:/html-test/goodink/css/style.scss */
+      .notes li a .notes__info ul li {
+        display: inline-block;
+        position: relative;
+        padding-right: 50px;
+        border: none;
+        color: #8f8f8f;
+        font-style: italic; }
+        @media screen and (max-width: 479px) {
+          /* line 494, G:/html-test/goodink/css/style.scss */
+          .notes li a .notes__info ul li {
+            padding-right: 10px; } }
+        /* line 503, G:/html-test/goodink/css/style.scss */
+        .notes li a .notes__info ul li::after {
+          content: "";
+          display: block;
+          width: 1px;
+          height: 1.5rem;
+          background-color: rgba(143, 143, 143, 0.5);
+          position: absolute;
+          top: 50%;
+          margin-top: -0.75rem;
+          margin-left: 100px; }
+          @media screen and (max-width: 479px) {
+            /* line 503, G:/html-test/goodink/css/style.scss */
+            .notes li a .notes__info ul li::after {
+              margin-left: 80px; } }
+        /* line 515, G:/html-test/goodink/css/style.scss */
+        .notes li a .notes__info ul li:last-child::after {
+          margin-left: 120px; }
+          @media screen and (max-width: 479px) {
+            /* line 515, G:/html-test/goodink/css/style.scss */
+            .notes li a .notes__info ul li:last-child::after {
+              margin-left: 90px; } }
+    /* line 522, G:/html-test/goodink/css/style.scss */
+    .notes li a:hover {
+      background-color: #f26c4f;
+      color: #ebebeb;
+      text-decoration: none; }
+      /* line 527, G:/html-test/goodink/css/style.scss */
+      .notes li a:hover .notes__info li {
+        color: #ebebeb; }
+  /* line 535, G:/html-test/goodink/css/style.scss */
+  .notes li:nth-of-type(1) a,
+  .notes li:nth-of-type(2) a {
+    padding: 35px; }
+    /* line 537, G:/html-test/goodink/css/style.scss */
+    .notes li:nth-of-type(1) a h3,
+    .notes li:nth-of-type(2) a h3 {
+      font-size: 1.8rem; }
+  /* line 543, G:/html-test/goodink/css/style.scss */
+  .notes li:nth-of-type(3) a {
+    padding: 17.5px 35px; }
+    /* line 545, G:/html-test/goodink/css/style.scss */
+    .notes li:nth-of-type(3) a h3 {
+      font-size: 1.5rem; }
+
+/* line 551, G:/html-test/goodink/css/style.scss */
+.notes .notes__article {
+  background-color: #fff;
+  height: 350px;
+  margin-bottom: 10px; }
+  /* line 555, G:/html-test/goodink/css/style.scss */
+  .notes .notes__article:nth-of-type(2) {
+    height: 500px; }
+  @media screen and (max-width: 480px) {
+    /* line 558, G:/html-test/goodink/css/style.scss */
+    .notes .notes__article:nth-of-type(1) {
+      height: auto; } }
+  /* line 561, G:/html-test/goodink/css/style.scss */
+  .notes .notes__article .notes__content {
+    padding: 35px; }
+    /* line 563, G:/html-test/goodink/css/style.scss */
+    .notes .notes__article .notes__content h3 {
+      font-size: 2em; }
+      /* line 35, G:/html-test/goodink/css/style.scss */
+      .notes .notes__article .notes__content h3 a {
+        color: #4f4f4f; }
+        /* line 37, G:/html-test/goodink/css/style.scss */
+        .notes .notes__article .notes__content h3 a:hover {
+          color: rgba(79, 79, 79, 0.7); }
+    /* line 569, G:/html-test/goodink/css/style.scss */
+    .notes .notes__article .notes__content:first-of-type p:first-of-type {
+      font-size: 1.2em;
+      padding-bottom: 35px; }
+      /* line 572, G:/html-test/goodink/css/style.scss */
+      .notes .notes__article .notes__content:first-of-type p:first-of-type a {
+        color: #f26c4f; }
+        /* line 574, G:/html-test/goodink/css/style.scss */
+        .notes .notes__article .notes__content:first-of-type p:first-of-type a:hover {
+          text-decoration: underline; }
+  /* line 581, G:/html-test/goodink/css/style.scss */
+  .notes .notes__article .notes__pic {
+    width: 100%;
+    height: 50%;
+    background: url("/img/img-5.jpg") 100% no-repeat;
+    -o-background-size: cover;
+    background-size: cover; }
+    @media screen and (max-width: 768px) {
+      /* line 581, G:/html-test/goodink/css/style.scss */
+      .notes .notes__article .notes__pic {
+        background: url("/img/s-img-5.jpg") 100% no-repeat;
+        -o-background-size: cover;
+        background-size: cover; } }
+    @media screen and (max-width: 480px) {
+      /* line 581, G:/html-test/goodink/css/style.scss */
+      .notes .notes__article .notes__pic {
+        height: 30%; } }
+
+/*------
+        aside
+            ---------*/
+/* line 595, G:/html-test/goodink/css/style.scss */
+aside .aside__article {
+  height: 500px;
+  color: #ebebeb; }
+  /* line 598, G:/html-test/goodink/css/style.scss */
+  aside .aside__article .aside__pic {
+    width: 100%;
+    height: 50%;
+    background: url("/img/img-6.jpg") 100% no-repeat;
+    -o-background-size: cover;
+    background-size: cover; }
+    @media screen and (max-width: 768px) {
+      /* line 598, G:/html-test/goodink/css/style.scss */
+      aside .aside__article .aside__pic {
+        background: url("/img/s-img-6.jpg") 100% no-repeat;
+        -o-background-size: cover;
+        background-size: cover; } }
+  /* line 604, G:/html-test/goodink/css/style.scss */
+  aside .aside__article .aside__text {
+    height: 50%;
+    padding: 35px;
+    background-color: #373737; }
+    /* line 608, G:/html-test/goodink/css/style.scss */
+    aside .aside__article .aside__text h3 {
+      font-size: 1.5rem;
+      font-weight: bold; }
+      /* line 35, G:/html-test/goodink/css/style.scss */
+      aside .aside__article .aside__text h3 a {
+        color: #ebebeb; }
+        /* line 37, G:/html-test/goodink/css/style.scss */
+        aside .aside__article .aside__text h3 a:hover {
+          color: rgba(235, 235, 235, 0.7); }
+
+/* line 615, G:/html-test/goodink/css/style.scss */
+aside .aside__note {
+  height: 150px;
+  padding: 10px;
+  color: #8f8f8f; }
+  /* line 619, G:/html-test/goodink/css/style.scss */
+  aside .aside__note h4 {
+    font-size: 1.3rem; }
+    /* line 35, G:/html-test/goodink/css/style.scss */
+    aside .aside__note h4 a {
+      color: #4f4f4f; }
+      /* line 37, G:/html-test/goodink/css/style.scss */
+      aside .aside__note h4 a:hover {
+        color: rgba(79, 79, 79, 0.7); }
+  /* line 623, G:/html-test/goodink/css/style.scss */
+  aside .aside__note .aside__note-date {
+    font-style: italic; }
+
+/* line 627, G:/html-test/goodink/css/style.scss */
+aside .aside__adv {
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  border: 1px solid #8f8f8f; }
+
+/* line 632, G:/html-test/goodink/css/style.scss */
+aside .aside__info {
+  font-size: 1.1em; }
+  /* line 634, G:/html-test/goodink/css/style.scss */
+  aside .aside__info li {
+    display: block; }
+    /* line 636, G:/html-test/goodink/css/style.scss */
+    aside .aside__info li a {
+      display: block;
+      margin-bottom: 10px;
+      padding: 10px 35px;
+      border-left: 3px solid #8f8f8f;
+      background-color: #fff;
+      color: #4f4f4f; }
+      /* line 643, G:/html-test/goodink/css/style.scss */
+      aside .aside__info li a:hover {
+        background-color: #f26c4f;
+        color: #fff;
+        border-left: 3px solid #f26c4f; }
+
+/* line 652, G:/html-test/goodink/css/style.scss */
+aside .aside__summary li {
+  display: block;
+  margin: 0 auto;
+  height: 60px;
+  line-height: 60px; }
+  /* line 657, G:/html-test/goodink/css/style.scss */
+  aside .aside__summary li span {
+    display: inline-block;
+    color: #8f8f8f; }
+    /* line 660, G:/html-test/goodink/css/style.scss */
+    aside .aside__summary li span:nth-child(1) {
+      width: 45%;
+      font-size: 3.5em;
+      font-weight: 900;
+      float: left;
+      color: #4f4f4f; }
+      @media screen and (max-width: 768px) {
+        /* line 660, G:/html-test/goodink/css/style.scss */
+        aside .aside__summary li span:nth-child(1) {
+          width: 40%;
+          font-size: 3em; } }
+
+@media screen and (max-width: 480px) {
+  /* line 594, G:/html-test/goodink/css/style.scss */
+  aside {
+    display: none; } }
+
+/*------
+        footer
+            ---------*/
+/* line 678, G:/html-test/goodink/css/style.scss */
+footer {
+  height: 300px;
+  position: absolute;
+  left: 0;
+  bottom: 0; }
+  /* line 684, G:/html-test/goodink/css/style.scss */
+  footer .footer__content li {
+    display: inline-block;
+    padding: 35px 10px 10px 0; }
+    /* line 35, G:/html-test/goodink/css/style.scss */
+    footer .footer__content li a {
+      color: #ebebeb; }
+      /* line 37, G:/html-test/goodink/css/style.scss */
+      footer .footer__content li a:hover {
+        color: rgba(235, 235, 235, 0.7); }
+  /* line 691, G:/html-test/goodink/css/style.scss */
+  footer .footer__content .footer__nav .logo {
+    height: 60px;
+    line-height: 60px;
+    font-size: 2.5em; }
+    /* line 694, G:/html-test/goodink/css/style.scss */
+    footer .footer__content .footer__nav .logo:after {
+      width: 30px;
+      height: 30px;
+      top: 15px;
+      border: 15px solid #474747;
+      border-left: 15px solid #f26c4f; }
+  /* line 702, G:/html-test/goodink/css/style.scss */
+  footer .footer__content .footer__nav h2 {
+    height: 60px;
+    line-height: 60px; }
+  /* line 707, G:/html-test/goodink/css/style.scss */
+  footer .footer__content .footer__nav .nav__content li {
+    float: right;
+    padding: 0 0 0 50px; }
+    /* line 710, G:/html-test/goodink/css/style.scss */
+    footer .footer__content .footer__nav .nav__content li:nth-of-type(1)::after {
+      display: none; }
+    /* line 713, G:/html-test/goodink/css/style.scss */
+    footer .footer__content .footer__nav .nav__content li:nth-of-type(2) {
+      display: none; }
+      @media screen and (max-width: 768px) {
+        /* line 713, G:/html-test/goodink/css/style.scss */
+        footer .footer__content .footer__nav .nav__content li:nth-of-type(2) {
+          display: inline-block; } }
+      @media screen and (max-width: 768px) {
+        /* line 716, G:/html-test/goodink/css/style.scss */
+        footer .footer__content .footer__nav .nav__content li:nth-of-type(2)::after {
+          margin-left: 60px; } }
+      /* line 719, G:/html-test/goodink/css/style.scss */
+      footer .footer__content .footer__nav .nav__content li:nth-of-type(2) .footer__menu-medium {
+        display: none; }
+        /* line 721, G:/html-test/goodink/css/style.scss */
+        footer .footer__content .footer__nav .nav__content li:nth-of-type(2) .footer__menu-medium li {
+          display: block;
+          position: absolute;
+          right: 90px; }
+          /* line 725, G:/html-test/goodink/css/style.scss */
+          footer .footer__content .footer__nav .nav__content li:nth-of-type(2) .footer__menu-medium li:nth-of-type(1) {
+            bottom: 60px; }
+          /* line 728, G:/html-test/goodink/css/style.scss */
+          footer .footer__content .footer__nav .nav__content li:nth-of-type(2) .footer__menu-medium li:nth-of-type(2) {
+            bottom: 100px; }
+          /* line 731, G:/html-test/goodink/css/style.scss */
+          footer .footer__content .footer__nav .nav__content li:nth-of-type(2) .footer__menu-medium li:nth-of-type(3) {
+            bottom: 140px; }
+          /* line 734, G:/html-test/goodink/css/style.scss */
+          footer .footer__content .footer__nav .nav__content li:nth-of-type(2) .footer__menu-medium li:hover {
+            border: none; }
+          /* line 737, G:/html-test/goodink/css/style.scss */
+          footer .footer__content .footer__nav .nav__content li:nth-of-type(2) .footer__menu-medium li::after {
+            display: none; }
+          /* line 740, G:/html-test/goodink/css/style.scss */
+          footer .footer__content .footer__nav .nav__content li:nth-of-type(2) .footer__menu-medium li a {
+            height: 40px;
+            line-height: 40px;
+            width: 80px;
+            text-align: center;
+            background-color: #474747; }
+            /* line 745, G:/html-test/goodink/css/style.scss */
+            footer .footer__content .footer__nav .nav__content li:nth-of-type(2) .footer__menu-medium li a:hover {
+              background-color: #8f8f8f;
+              color: #ebebeb; }
+      /* line 753, G:/html-test/goodink/css/style.scss */
+      footer .footer__content .footer__nav .nav__content li:nth-of-type(2):hover .footer__menu-medium {
+        display: block; }
+    @media screen and (max-width: 768px) {
+      /* line 758, G:/html-test/goodink/css/style.scss */
+      footer .footer__content .footer__nav .nav__content li:nth-of-type(3) {
+        display: none; } }
+    /* line 760, G:/html-test/goodink/css/style.scss */
+    footer .footer__content .footer__nav .nav__content li:nth-of-type(3)::after {
+      margin-left: 75px; }
+    @media screen and (max-width: 768px) {
+      /* line 764, G:/html-test/goodink/css/style.scss */
+      footer .footer__content .footer__nav .nav__content li:nth-of-type(4), footer .footer__content .footer__nav .nav__content li:nth-of-type(5) {
+        display: none; } }
+    /* line 766, G:/html-test/goodink/css/style.scss */
+    footer .footer__content .footer__nav .nav__content li:nth-of-type(4)::after, footer .footer__content .footer__nav .nav__content li:nth-of-type(5)::after {
+      margin-left: 70px;
+      display: block; }
+    /* line 771, G:/html-test/goodink/css/style.scss */
+    footer .footer__content .footer__nav .nav__content li:nth-of-type(5) {
+      padding-right: 0; }
+    /* line 775, G:/html-test/goodink/css/style.scss */
+    footer .footer__content .footer__nav .nav__content li:nth-of-type(6) {
+      padding-right: 10px; }
+      /* line 777, G:/html-test/goodink/css/style.scss */
+      footer .footer__content .footer__nav .nav__content li:nth-of-type(6)::after {
+        margin-left: 55px; }
+      @media screen and (max-width: 768px) {
+        /* line 775, G:/html-test/goodink/css/style.scss */
+        footer .footer__content .footer__nav .nav__content li:nth-of-type(6) {
+          display: none; } }
+  @media screen and (max-width: 480px) {
+    /* line 706, G:/html-test/goodink/css/style.scss */
+    footer .footer__content .footer__nav .nav__content {
+      display: none; } }
+  @media screen and (max-width: 480px) {
+    /* line 689, G:/html-test/goodink/css/style.scss */
+    footer .footer__content .footer__nav {
+      height: 60px;
+      background-color: #474747; } }
+  /* line 787, G:/html-test/goodink/css/style.scss */
+  footer .footer__content .footer__info {
+    color: #8f8f8f; }
+    @media screen and (max-width: 768px) {
+      /* line 787, G:/html-test/goodink/css/style.scss */
+      footer .footer__content .footer__info {
+        padding: 0 35px; } }
+    @media screen and (max-width: 479px) {
+      /* line 787, G:/html-test/goodink/css/style.scss */
+      footer .footer__content .footer__info {
+        padding: 0 10px; } }
+
+/*# sourceMappingURL=style.css.map */
